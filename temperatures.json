@@ -1,0 +1,62 @@
+[
+  {
+    "temperatureC": 10,
+    "value": "Baja"
+  },
+  {
+    "temperatureC": 25,
+    "value": "Baja"
+  },
+  {
+    "temperatureC": 30,
+    "value": "Baja"
+  },
+  {
+    "temperatureC": 34,
+    "value": "Baja"
+  },
+  {
+    "temperatureC": 34.99,
+    "value": "Baja"
+  },
+  {
+    "temperatureC": 35,
+    "value": "Normal"
+  },
+  {
+    "temperatureC": 36,
+    "value": "Normal"
+  },
+  {
+    "temperatureC": 37,
+    "value": "Normal"
+  },
+  {
+    "temperatureC": 37.1,
+    "value": "Alta"
+  },
+  {
+    "temperatureC": 38,
+    "value": "Alta"
+  },
+  {
+    "temperatureC": 38.1,
+    "value": "Muy Alta"
+  },
+  {
+    "temperatureC": 40,
+    "value": "Muy Alta"
+  },
+  {
+    "temperatureC": 40.1,
+    "value": "Extremadamente Alta"
+  },
+  {
+    "temperatureC": 100,
+    "value": "Extremadamente Alta"
+  },
+  {
+    "temperatureC": 160,
+    "value": "Extremadamente Alta"
+  }
+]

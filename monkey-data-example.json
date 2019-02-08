@@ -1,0 +1,83 @@
+{
+  "version": 2.0,
+  "eventDomain": "wovyn.emitter",
+  "eventName": "sensorHeartbeat",
+  "emitterGUID": "5CCF7FD50B15",
+  "genericThing": {
+    "typeId": "2.2.1",
+    "typeName": "generic.compound.array",
+    "healthPercent": 56.89,
+    "heartbeatSeconds": 600,
+    "data": {
+      "temperature": [
+        {
+          "name": "enclosure temperature",
+          "transducerGUID": "0000000000000000",
+          "units": "degrees",
+          "temperatureF": 0.00,
+          "temperatureC": 0.00
+        },
+        {
+          "name": "probe 1 temperature",
+          "transducerGUID": "282B72C9060000C5",
+          "units": "degrees",
+          "temperatureF": 72.72,
+          "temperatureC": 22.62
+        },
+        {
+          "name": "probe 2 temperature",
+          "transducerGUID": "281E787D060000E1",
+          "units": "degrees",
+          "temperatureF": 71.82,
+          "temperatureC": 22.13
+        }
+      ]
+    }
+  },
+  "specificThing": {
+    "make": "Wovyn ESProto",
+    "model": "Temp2002",
+    "typeId": "1.1.2.2.2002",
+    "typeName": "enterprise.wovyn.esproto.temp.2002",
+    "thingGUID": "5CCF7FD50B15.1",
+    "firmwareVersion": "Wovyn-Temp2002-1.0",
+    "transducer": [
+      {
+        "name": "Maxim DS18B20 Digital Thermometer",
+        "transducerGUID": "0000000000000000",
+        "transducerType": "Maxim Integrated.DS18B20",
+        "units": "degrees",
+        "temperatureC": 0.00
+      },
+      {
+        "name": "Maxim DS18B20 Digital Thermometer",
+        "transducerGUID": "282B72C9060000C5",
+        "transducerType": "Maxim Integrated.DS18B20",
+        "units": "degrees",
+        "temperatureC": 22.62
+      },
+      {
+        "name": "Maxim DS18B20 Digital Thermometer",
+        "transducerGUID": "281E787D060000E1",
+        "transducerType": "Maxim Integrated.DS18B20",
+        "units": "degrees",
+        "temperatureC": 22.13
+      }
+    ],
+    "battery": {
+      "maximumVoltage": 3.60,
+      "minimumVoltage": 2.70,
+      "currentVoltage": 3.21
+    }
+  },
+  "property": {
+    "name": "Wovyn_D50B15",
+    "description": "Temp2002",
+    "location": {
+      "description": "Timbuktu",
+      "imageURL": "http://www.wovyn.com/assets/img/wovyn-logo-small.png",
+      "latitude": "16.77078",
+      "longitude": "-3.00819"
+    }
+  }
+}
